@@ -98,7 +98,7 @@ test.describe('🔥 Smoke Test — Validación de precios pipe.store', () => {
           }
         }
       });
-      
+         
       page.on('console', (msg) => {
         if (msg.type() === 'error') erroresConsola.push(msg.text());
       });
